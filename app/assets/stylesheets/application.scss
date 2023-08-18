@@ -10,3 +10,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+
+img{
+  max-width: 100%;
+}
+/* Custom design below! */
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.saved-list{
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}

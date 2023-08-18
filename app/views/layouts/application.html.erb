@@ -14,3 +14,13 @@
     <%= yield %>
   </body>
 </html>
+
+<%#
+require "json"
+require "open-uri"
+
+url = "https://api.themoviedb.org/"
+
+user_serialized = URI.open(url).read
+user = JSON.parse(user_serialized)
+49d390a2238b077a330d0aa5615b3deb %>
